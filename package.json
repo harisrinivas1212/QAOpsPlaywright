@@ -1,0 +1,22 @@
+{
+  "name": "playwrighttestautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test tests/WebAPIPart2.spec.js --headed",
+    "regression": "npx playwright test --grep @regression",
+    "API" :"npx playwright test --grep @API"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.1.2"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}
